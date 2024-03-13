@@ -1,1 +1,1 @@
-# Ulohy-pro-procvicovaci-HTML-a-CSS
+# Úlohy pro procvičvání HTML a CSS
