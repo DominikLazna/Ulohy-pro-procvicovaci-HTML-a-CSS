@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e911d031db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.6/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Skyweb</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <menu>
+                <li><a class="nav__logo" href="#"><img src="./svgs/Full-logo.svg" alt="Logo"></a></li>
+            </menu>
+            <menu class="nav__links">
+                <li class="u-bold-text"><a class="nav__item" href="#proc-my">Proč my</a></li>
+                <li class="u-bold-text"><a class="nav__item" href="#proces">Proces spolupráce</a></li>
+                <li class="u-bold-text"><a class="nav__item" href="#reference">Předešlé projekty</a></li>
+                <li class="u-bold-text"><a class="nav__item" href="#recenze">Co o nás říkají</a></li>
+                <li><a class="button" href="#formular">Chci web</a></li>
+            </menu>
+            <menu class="nav__hamburger-block">
+                <li>
+                    <div class="hamburger">
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                    </div>
+                </li>
+            </menu>
+        </nav>
+            <div class="hero">
+                <h1>Webové stránky <span class="u-blue-text">podle vaší představy</span></h1>
+                <p>Tvoříme webové stránky, které mají za úkol nadchnout a hlavně zviditelnit. V našem týmu klademe důraz na pozitivní vztah s našimi zákazníky a dostupnou cenu i pro ty nejmenší projekty.</p>
+                <div class="hero__buttons">
+                    <a class="button u-center" href="#formular">Chci webové stránky</a>
+                    <a class="button button--secondary u-center" href="#reference">Reference</a>
+                </div>
+            </div>
+            <div class="mockup-container">
+                <img class="mockup-img mockup-img01 u-responsive-img" src="./imgs/bracket.webp" alt="">
+                <img class="mockup-img mockup-img02 u-responsive-img" src="./imgs/ocean-records.webp" alt="">
+                <img class="mockup-img mockup-img03 u-responsive-img" src="./imgs/bracket-galerie.webp" alt="">
+            </div>
+    </header>
+    <main>
+        <section id="proc-my">
+            <h2>Proč my</h2>
+            <div class="cards-container">
+                <div class=card>
+                    <img src="./svgs/mobil-svg.svg" alt="Mobil">
+                    <p class="u-blue-text card__heading">Vytvoříme vám web, který bude zcela responzivní</p>
+                    <p>Garantujeme vám, že váš web bude zcela optimalizovaný jak pro počítače tak i mobily a tablety. Váš web tak bude vypadat na všech zařízeních dobře.</p>
+                </div>
+                <div class=card>
+                    <img src="./svgs/lupa-svg.svg" alt="Lupa">
+                    <p class="u-blue-text card__heading">Zajistíme, aby vás lidé jednoduše našli</p>
+                    <p>Klademe velký důraz na správné postupy pro efektivní SEO, aby jste se potencionálním uživatelům zobrazovali na vysokých pozicích ve vyhledávačích.</p>
+                </div>
+                <div class=card>
+                    <img src="./svgs/komentář-svg.svg" alt="Komentář">
+                    <p class="u-blue-text card__heading">Profesionální a srozumitelná komunikace</p>
+                    <p>Během celého procesu vývoje vaší webové stránce jsme s vámi ochotni probrat jakékoli návrhy či obavy. Naše komunikace je profesionální, ale stále srozumitelná.</p>
+                </div>
+            </div>
+        </section>
+        <section id="proces">
+            <h2>Jaký je proces naší spolupráce?</h2>
+            <div class="process">
+                <div class="process__img"><img class="u-responsive-img" src="./imgs/diskuze.webp" alt="Záběr na dvě osoby vedoucí diskuzi."></div>
+                <div class="process__steps">
+                    <div class="window window--step">
+                        <h3>Diskuze</h3>
+                        <p>Prvně s vámi probereme detaily vašeho projektu, které zahrnují charakter projektu, cílovou skupinu, rozsah a další, abysme byli schopni vymyslet řešení webových stránek. Veškerá komunikace  probíhá přes telefon, email nebo v některých případech i osobně.</p>
+                    </div>
+                    <div class="window window--step">
+                        <h3>Wireframe</h3>
+                        <p>Poté, co už máme představu o vašem projektu, vytváříme wireframe, který vám přiblíží podobu připravovaného webu. Za pomoci wireframu je možné dělat úpravy dle vaší zpětné vazby bez ztrácení času na složité úpravě celého komplexního návrhu.</p>
+                    </div>
+                    <div class="window window--step">
+                        <h3>Grafická návrh</h3>
+                        <p>Vytváříme kompletní verzi grafického návrhu, který má za úkol na první pohled zaujmout své návštěvníky. Detaily a drobné nedostatky v grafickém návrhu je stále možné upravovat dle vaší zpětné vazby k zhotovení vaši vysněné stránky.</p>
+                    </div>
+                    <div class="window window--step">
+                        <h3>Kódování</h3>
+                        <p>Finální podobu grafického návrhu implementujeme pomocí HTML, CSS a JavaScriptu. Při kódování našich projektů používáme nejlepší techniky pro zajištění dobrého SEO, které pošle návštěvnost vašich stránek do nebeských výšek. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reference">
+            <h2>Předešlé projekty</h2>
+            <div class="projects-container">
+                <div class="project-img"><a href="#"><img class="u-responsive-img" src="./imgs/sladky-sen.webp" alt="Ukázka předešlého projektu pro cukráštví Sladký sen"></a></div>
+                <div class="project-img"><a href="#"><img class="u-responsive-img" src="./imgs/barbershop.webp" alt="Ukázka předešlého projektu pro barbershop GoldenFade"></a></div>
+            </div>
+        </section>
+        <section id="recenze" class="reviews">
+            <h2>Co o nás říkají</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><div class="window">„Výjimečná práce na tvorbě našich nových webových stránkách! Sledují aktuální trendy, jsou inovativní a flexibilní v přístupu k zákazníkovi. Výsledný web přesně splnil naše očekávání. Velmi nás potěšila také jejich ochota přinášet k projektu nové nápady a přizpůsobit se měnícím se požadavkům. 👍💻”</div></div>
+                  <div class="swiper-slide"><div class="window">"Skvělá práce! Rychlá reakce na požadavky, perfektní grafický design a jedinečný web. Děkujeme za úžasnou spolupráci! Tým je nejen odborný, ale také velmi přátelský. S jejich pomocí jsme získali moderní a efektivní webovou stránku. 💻🚀 #WebDesignMistra #DokonaléWebovéStránky"</div></div>
+                  <div class="swiper-slide"><div class="window">"Tato firma se opravdu stará o klienty. Od prvního setkání až po dokončení projektu, bylo vše bezproblémové. Profesionální, kreativní a vstřícní! Doporučuji. Jsme vděční za ochotu a výbornou spolupráci, která nám přinesla výsledek přesně podle našich představ. 🌐🔧 #SkvěláSpolupráce"</div></div>
+                </div>
+                <div class="swiper-pagination"></div>   
+            </div>
+        </section>
+        <section id="formular">
+            <form class="form">
+                <div class="form__img">
+                    <img class="u-responsive-img" src="./imgs/mockup.webp" alt="Ukázka předešlých zpracovaných webů.">
+                </div>
+                <div class="form__body">
+                    <div class="form__header">
+                        <h2 class="form__heading">Chcete kvalitní a levný web?</h2>
+                        <p class="form__price">od 2 500 Kč</p>
+                        <p class="form__heading">Napište nám</p>
+                    </div>
+                    <div class="form__section">
+                        <label class="form__label" for="name">Jméno/Název firmy</label>
+                        <input class="form__input" type="text" name="name" id="name" placeholder="Damien Tíšil">
+                    </div>
+                    <div class="form__section">
+                        <label class="form__label" for="phone">Telefon</label>
+                        <input class="form__input" type="tel" name="phone" id="phone" placeholder="707 405 212">
+                    </div>
+                    <div class="form__section">
+                        <label class="form__label" for="mail">Email</label>
+                        <input class="form__input" type="email" name="mail" id="mail" placeholder="damien.tisil@gmail.com">
+                    </div>
+                    <div class="form__section">
+                        <label class="form__label" for="info">Popis firmy</label>
+                        <textarea class="form__input" name="info" id="info" rows="6" placeholder="Dobová restaurace ve městě Brno servírující především česká ale třeba i německá jídla." style="resize: none;"></textarea>
+                    </div>
+                    <input class="button button--form" type="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__links">
+            <ul class="footer__contacts">
+                <li><a href="tel:+420720855422"><i class="icon icon--contact fa-solid fa-mobile-screen"></i>720 855 422</a></li>
+                <li><a href="mailto:kontakt@skyweb.cz"><i class="icon icon--contact fa-regular fa-envelope"></i>kontakt@skyweb.cz</a></li>
+            </ul>
+            <ul class="footer__socials">
+                <li><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <p class="footer__copyright">© 2023 SkyWeb s.r.o.</p>
+    </footer>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+      
+        const swiper = new Swiper(".swiper", {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            spaceBetween: 32,
+            breakpoints: {
+                1280: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+      </script>
+      <script src="hamburger.js"></script>
+</body>
+</html>

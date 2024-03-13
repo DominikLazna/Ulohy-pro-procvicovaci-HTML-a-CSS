@@ -1,0 +1,23 @@
+.u-blue-text {
+    color: var(--dark-blue-color);
+}
+
+.u-white-text {
+    color: var(--white-color);
+}
+
+.u-bold-text {
+    font-weight: 700;
+}
+
+.u-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.u-responsive-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

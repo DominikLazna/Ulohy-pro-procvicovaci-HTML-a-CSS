@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Raccoo | Nova</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="nav">
+                <menu class="nav__flex">
+                    <li><a href="#"><img class="u-responsive-img" src="./svgs/Logo.svg" alt="Logo firmy"></a></li>
+                    <li><a class="nav__item" href="#">Domů</a></li>
+                    <li><a class="nav__item" href="#">Komunita</a></li>
+                    <li class="nav__dropdown">
+                        <a class="nav__item nav__item--arrow" href="#">Software</a>
+                        <ul class="nav__sub-menu">
+                            <li><a class="nav__item" href="#">Nova</a></li>
+                            <li><a class="nav__item" href="#">NETify</a></li>
+                            <li><a class="nav__item" href="#">Presser</a></li>
+                            <li><a class="nav__item" href="#">Tinkerer</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav__item" href="#">Podpora</a></li>
+                </menu>
+                <menu class="nav__flex">
+                    <li class="nav__dropdown">
+                        <a class="nav__item nav__item--arrow" href="#">CZ</a>
+                        <ul class="nav__sub-menu">
+                            <li><a class="nav__item" href="#">ENG</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav__item" href="#">Přihlásit se</a></li>
+                </menu>
+            </nav>
+        </header>
+        <section class="hero">
+            <h1>Nový rok, nový editor</h1>
+            <p class="u-margin-small-bottom">Nova je rychlý editor s moderními funkcemi, mezi které patří například i nejnovější AI a hlavně nabízí nespočet možností modifikace dle vašich potřeb</p>
+            <a class="button u-center-div" href="#">Stáhnout</a>
+            <div class="hero__img"><img class="u-responsive-img" src="./imgs/hero.webp" alt="Ukázka rozhraní a vizuálu kódového editoru"></div>
+        </section>
+        <section class="u-black-section u-relative-section">
+            <h2>Novinky</h2>
+            <div class="patch-notes-container">
+                <article class="patch-note">
+                    <header class=u-flex-small-gap>
+                        <div class="patch-note__icon"><img src="./svgs/opravy.svg" alt="Ozubené kolečko"></div>
+                        <h3>Opravhy chyb a drobná vylepšení</h3>
+                    </header>
+                    <p class="patch-note__text">Drobná vylepšení uživatelského rozhraní pro lepší použivatelnost a příjemnější vizuální zážitek. Opraveny chyby spojené s nekonzistentním chováním některých funkcí a pluginů. Celkové zlepšení stability aplikace i na starších systémech.</p>
+                    <a class="button button--link" href="#">Zjistit více</a>
+                    <p class="patch-note__date">6.2.2024</p>
+                </article>
+                <article class="patch-note">
+                    <header class="u-flex-small-gap">
+                        <div class="patch-note__icon"><img src="./svgs/vykon.svg" alt="Metr ukazující rychlost"></div>
+                        <h3>Optimalizace výkonu</h3>
+                    </header>
+                    <p class="patch-note__text">Výrazné zlepšení celkového výkonu editoru, což znamená rychlejší spouštění a snížení doby odezvy pro vyšší efektivitu při zpracovávání velkých souborů a projektů. Celkové vylepšení využití systémových prostředků.</p>
+                    <a class="button button--link" href="#">Zjistit více</a>
+                    <p class="patch-note__date">2.2.2024</p>
+                </article>
+                <article class="patch-note">
+                    <header class="u-flex-small-gap">
+                        <div class="patch-note__icon"><img src="./svgs/team.svg" alt="Tři držící se ruce"></div>
+                        <h3>Vylepšení nástrojů pro teamy</h3>
+                    </header>
+                    <p class="patch-note__text">Nová sada nástrojů umožňující efektivní spolupráci více uživatelů současně na kódu v reálném čase. Vylepšený nástroj pro přezkoumávání kódu s možností přidávání komentářů, sledování změn a snadnější navigací mezi revizemi.</p>
+                    <a class="button button--link" href="#">Zjistit více</a>
+                    <p class="patch-note__date" >26.1.2024</p>
+                </article>
+                <article class="patch-note">
+                    <header class="u-flex-small-gap">
+                        <div class="patch-note__icon"><img src="./svgs/ai.svg" alt=""></div>
+                        <h3>Implementace umělé inteligece</h3>
+                    </header>
+                    <p class="patch-note__text">Přidána nová funkce umělé inteligence, která nabízí inteligentní návrhy kódu a automatické doplňování na základě kontextu, které vývojářům pomáhjí psát kód rychleji a efektivněji. Zároveň upozorňuje na chyby v kódu a usnadňuje jejich vyhledání.</p>
+                    <a class="button button--link" href="#">Zjistit více</a>
+                    <p class="patch-note__date">13.1.2024</p>
+                </article>
+            </div>
+            <a class="button button--secondary u-center-div" href="#">Zobrazit všechny novinky</a>
+            <div class="ellipse ellipse--hero"></div> <!-- elipsa -->
+        </section>
+        <section class="u-black-section">
+            <h2>Nova asistent</h2>
+            <div class="u-center-div ai-img">
+                <img class="u-responsive-img" src="./imgs/ai.webp" alt="Ukázka implementované umělé inteligence">
+            </div>
+            <div class="ai-container">
+                <div>
+                    <h3 class="u-margin-small-bottom">Inteligentní doplnění kódu</h3>
+                    <p>Náš kódový editor je vybaven pokročilým systémem inteligentního doplňování, který na základě analýzy vašeho kódu navrhuje vhodné doplnění a zkracuje dobu psaní. Tato funkce nejenže urychluje proces, ale také snižuje riziko syntaktických chyb.</p>
+                </div>
+                <div>
+                    <h3 class="u-margin-small-bottom">Analýza kódu</h3>
+                    <p>Díky vestavěné statické analýze váš kód podléhá detailnímu průzkumu, což vám umožňuje odhalit potenciální chyby nebo nekonzistence ještě před spuštěním programu. Tím se zvyšuje kvalita vašeho kódu a zkracuje časový rámec odhalení problémů.</p>
+                </div>
+                <div>
+                    <h3 class="u-margin-small-bottom">Personalizace</h3>
+                    <p>Věříme, že každý má svůj vlastní styl, preference a pracovní postupy, a právě tohle respektujeme. Díky personalizovanému nastavení se AI učí z vašich individuálních zvyklostí a potřeb, což vytváří jedinečně přizpůsobený vývojový prostředí.</p>
+                </div>
+                <div>
+                    <h3 class="u-margin-small-bottom">Zálohování</h3>
+                    <p>Díky inteligentnímu sledování změn v kódu a automatickému zálohování v reálném čase se nemusíte obávat o ztrátu dat. AI je zde pro vás, aby zajistila, že každá revize je bezpečně uložena a snadno obnovitelná.</p>
+                </div>
+            </div>
+        </section>
+        <section class="u-black-section u-relative-section">
+            <h2>Team Up</h2>
+                <div class="team-text">
+                    <h3 class="u-margin-small-bottom">Revize kódu</h3>
+                    <p>Náš editor umožňuje jednoduché nastavení revizí kódu a schvalovacích procesů. Získávejte zpětnou vazbu od týmu, přehledně sledujte změny a zajistěte, aby každá část kódu prošla potřebnými kontrolami před začleněním do projektu.</p>
+                </div>
+                <div class="team-text">
+                    <h3 class="u-margin-small-bottom">Kolektivní kódování</h3>
+                    <p>Sdílejte svou obrazovku a pracujte na kódu společně v reálném čase. Vytvářejte skupiny pro kolektivní kódování, kde členové týmu vidí změny okamžitě. To usnadňuje spolupráci na složitých částech kódu a umožňuje rychlé řešení problémů.</p>
+                </div>
+                <div class="team-text">
+                    <h3 class="u-margin-small-bottom">Komentářová sekce</h3>
+                    <p>Náš kódový editor nabízí interaktivní prostředí pro komunikaci přímo ve zdrojovém kódu. Přidávejte komentáře, zanechávejte poznámky a diskutujte o konkrétních částech kódu přímo v editoru. Tímto způsobem získáváte kontext a transparentnost veškerých debat.</p>
+                </div>
+                <div class="team-img">
+                    <img src="./imgs/team.png" alt="Ukázka teamové komunikaci v editoru">
+                </div>
+        </section>
+        <section class="u-black-section">
+            <h2>Knihovna pluginů</h2>
+            <div class="plugin-container">
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/prettier.svg" alt="Logo prettier pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Prettier</h3>
+                            <p>42m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/gitlens.svg" alt="Logo GitLens pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">GitLens - git supercharged</h3>
+                            <p>30m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/copilot.svg" alt="Logo GitHub Copilot pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">GitHub Copilot</h3>
+                            <p>14m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/liveserver.svg" alt="Logo LiveServer pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">LiveServer</h3>
+                            <p>42m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/autorename.svg" alt="Logo Auto Rename Tag pluginu"></div>
+                        <figcaption>
+                            <h3>Auto Rename Tag</h3>
+                            <p>42m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/repositories.svg" alt="Logo GitHub Repositories pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">GitHub Repositories</h3>
+                            <p>2m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/atom.svg" alt="Logo Atom Dark One Theme pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Atom One Dark Theme</h3>
+                            <p>5m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/color.svg" alt="Logo Color Highlight pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Color Highlight</h3>
+                            <p>6m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/todo.svg" alt="Logo TODO Highlight pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">TODO Highlight</h3>
+                            <p>4m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/monokai.svg" alt="Logo Monokai PRO pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Monokai PRO</h3>
+                            <p>2m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/material.svg" alt="Logo Material Theme Icons pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Material Theme Icons</h3>
+                            <p>3m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/code-spell-checker.svg" alt="Logo Code Spell Checker pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Code Spell Checker</h3>
+                            <p>9m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="plugin">
+                        <div><img src="./svgs/firefox.svg" alt="Logo Debuger for Firefox pluginu"></div>
+                        <figcaption>
+                            <h3 class="plugin__heading">Debugger for Firefox</h3>
+                            <p>3m stažení</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <a class="button button--secondary u-center-div" href="#">Zobrazit celou knihovnu</a>
+        </section>
+        <section class="u-black-section u-relative-section">
+            <h2>Podpora programovacích jazyků</h2>
+            <div class="support-container">
+                <div class="support-img">
+                    <img class="u-responsive-img" src="./imgs/jazyky.png" alt="Ukázka rozhraní kódového editoru">
+                </div>
+                <div class="support-text">
+                    <h3>Oficiálně podporované 4 jazyky</h3>
+                    <p class="u-margin-medium-bottom">C++, C#, JavaScript, Python</p>
+                    <p class="u-margin-small-bottom">Nova oficiálně podporuje 4 jazyky, těmi jsou C++, C#, JavaScript a Python. Na implementaci těchto jazyků pracuje přímo náš team z Raccoo.</p>
+                    <p class="u-margin-small-bottom">Pokud chcete pracovat i s jinými programovacími jazyky, můžete se podívat do komunitní knihovny pluginů, která obsahuje desítky pluginů pro poskytnutí podpory i dalším jazykům jako je třeba Ruby, Java, Kotlin a další.</p>
+                    <a class="button button--secondary" href="#">Zjistit více</a>
+                </div>
+            </div>
+            <div class="ellipse ellipse--bottom"></div>
+        </section>
+        <section class="editions-section">
+            <h2 class="u-text-align-left">Vyberte si edici</h2>
+            <table class="table">
+                <colgroup>
+                    <col class="table__column" span="1">
+                    <col class="table__column" span="1">
+                    <col class="table__column" span="1">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th class="table__borderless-cell">&nbsp;</th>
+                        <th class="table__borderless-cell">Nova Pro</th>
+                        <th class="table__borderless-cell">Nova Starter</th>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Cena</th>
+                        <td>250 Kč/měsíčně</td>
+                        <td>Zdarma</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Podpora jazyků</th>
+                        <td>C++, C#, JavaScript, Python a další</td>
+                        <td>C++, C#, JavaScript, Python</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Debugger</th>
+                        <td>Ano</td>
+                        <td>Ano</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Systém zprávy verzí</th>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Přistup ke komunitním pluginům</th>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Team Up</th>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Nova asistent</th>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                    </tr>
+                    <tr>
+                        <th class="table__left-aligned-cell">Podpora SQL</th>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 class="u-margin-small-bottom">Zakoupit</h3>
+            <div class="u-flex-small-gap">
+                <a class="button" href="#">Nova Pro</a>
+                <a class="button button--grey" href="#">Nova Starter</a>
+            </div>
+        </section>
+        <footer class="footer u-black-section u-relative-section">
+            <div>
+                <ul>
+                    <li class="footer__item u-bold"><a href="#">Domů</a></li>
+                    <li class="footer__item u-bold"><a href="#">Komunita</a></li>
+                    <li class="footer__item u-flex-small-gap">
+                        <a class="u-bold" href="#">Software</a>
+                        <ul class="u-flex-small-gap">
+                            <li><a href="#">Nova</a></li>
+                            <li><a href="#">Presser</a></li>
+                            <li><a href="#">NETify</a></li>
+                            <li><a href="#">Tinkerer</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__item u-bold"><a href="#">Podpora</a></li>
+                </ul>
+                <ul class="u-flex-small-gap">
+                    <li><a class="footer__terms" href="#">Ochrana soukromí</a></li>
+                    <li><a class="footer__terms" href="#">Obchodní podmínky</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><img class="footer__logo u-margin-medium-bottom" src="./svgs/Logo.svg" alt="Logo firmy"></a>
+                <ul class="u-flex-small-gap u-margin-small-bottom">
+                    <li class="footer__socials"><a href="#"><img class="u-responsive-img" src="./svgs/linkedin.svg" alt="Logo LinkedIn"></a></li>
+                    <li class="footer__socials"><a href="#"><img class="u-responsive-img" src="./svgs/twitter.svg" alt="Logo Twitteru"></a></li>
+                    <li class="footer__socials"><a href="#"><img class="u-responsive-img" src="./svgs/facebook.svg" alt="Logo Facebooku"></a></li>
+                    <li class="footer__socials"><a href="#"><img class="u-responsive-img" src="./svgs/youtube.svg" alt="Logo Youtube"></a></li>
+                    <li class="footer__socials"><a href="#"><img class="u-responsive-img" src="./svgs/instagram.svg" alt="Logo Instagramu"></a></li>
+                </ul>
+                <p>© 2017-2024 Raccoo s.r.o</p>
+            </div>
+            <div class="ellipse ellipse--footer"></div>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.u-responsive-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.u-center-div {
+    margin: 0 auto;
+}

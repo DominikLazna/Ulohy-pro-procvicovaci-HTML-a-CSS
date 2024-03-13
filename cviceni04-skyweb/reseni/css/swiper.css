@@ -1,0 +1,9 @@
+:root {
+    --swiper-pagination-bottom: -32px;
+    --swiper-pagination-color: var(--dark-blue-color);
+}
+
+.swiper {
+    overflow:clip;
+    overflow-clip-margin: 32px;
+}
